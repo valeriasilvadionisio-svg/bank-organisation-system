@@ -15,7 +15,7 @@ package CA_2;
 
 //my diagram 
 //- internshipDurationMonths : int
-// + getInternshipDurationMonths() : int
+
 
 public class InternEmployee extends Employee {
     private int internshipDurationMonths;

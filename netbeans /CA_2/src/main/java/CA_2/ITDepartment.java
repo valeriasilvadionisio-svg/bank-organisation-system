@@ -11,7 +11,7 @@ package CA_2;
 
 //my diagram
 //- numberOfSystems : int
-//+ getNumberOfSystems() : int
+
 
 
 public class ITDepartment extends Department {

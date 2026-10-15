@@ -11,7 +11,6 @@ package CA_2;
 
 //my diagram
 //- recruitmentCount : int
-//+ getRecruitmentCount() : int
 
 public class HRDepartment extends Department {
     

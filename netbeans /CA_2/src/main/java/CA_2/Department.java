@@ -10,14 +10,10 @@ package CA_2;
  */
 
 //my diagram
-//- departmentId : int {readonly}
+//- departmentId : 
 //- departmentName : String
 //- totalEmployees : int
 
-//+ getDepartmentId() : int
-//+ getDepartmentName() : String
-//+ getTotalEmployees() : int
-//+ toString() : String
 
 
 public class Department {

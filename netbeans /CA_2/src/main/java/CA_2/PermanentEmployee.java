@@ -11,7 +11,7 @@ package CA_2;
 
 // my diagram 
 //- annualBonus : double
-//+ getAnnualBonus() : double
+
 
 
 public class PermanentEmployee extends Employee {

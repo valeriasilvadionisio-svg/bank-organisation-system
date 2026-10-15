@@ -10,7 +10,7 @@ package CA_2;
  */
 //my diagram 
 //Employee
-//- employeeId : int {readonly}
+//- employeeId : int 
 //- firstName : String
 //- lastName : String
 //- gender : String
@@ -21,13 +21,6 @@ package CA_2;
 //- jobTitle : String
 //- company : String
 
-//+ getEmployeeId() : int
-//+ getFirstName() : String
-//+ getLastName() : String
-//+ getFullName() : String
-//+ getDepartment() : String
-//+ getJobTitle() : String
-//+ toString() : String
 
 public class Employee {
     
@@ -57,7 +50,7 @@ public Employee() {
     
     
     
-    
+   
     
     //This constructor receives the employee information and stores the values inside the Employee object. (when read in the ca_2)
 
@@ -78,5 +71,29 @@ public Employee(int employeeId, String firstName, String lastName,
     this.company = company;
 
 }
-    
+
+
+ //This method returns the employee full name.
+ //I will use this later for sorting and searching.
+
+
+public String getFullName() { //put the full name for sorting and searching 
+    return firstName + " " + lastName;
+}
+
+
+ //This its for method decides how the employee will be displayed as text.
+
+@Override //its mean like: i m replacing a method that already exists in the java object class
+public String toString() { //show the employee name in a readable format on the terminal 
+    return getFullName() + " - " + department + " - " + jobTitle;
+}
+
+    public String getPosition() { //this is for class treeMain 
+    return position;
+}
+
+public String getDepartment() {
+    return department;
+}
 }

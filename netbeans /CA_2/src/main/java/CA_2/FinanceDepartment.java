@@ -11,7 +11,7 @@ package CA_2;
 
 //my diagram
 //- budget : double
-// + getBudget() : double
+
 
 public class FinanceDepartment extends Department {
     

@@ -44,6 +44,12 @@ public class SortHandler {
 //Finally, the program displays only the first 20 sorted employees, as required in the assignment brief.
 
     
+   // I chose recursive bubble sort because the assignment required a recursive algorithm and 
+  //I wanted a solution that was easier to implement, understand and maintain.
+  //Since the employee dataset was not very large, I did not think a more advanced algorithm 
+ //such as Merge Sort was necessary. Although Merge Sort is generally faster for large datasets,
+ //it would have added unnecessary complexity to this project.
+    
     
     private void recursiveBubbleSort(ArrayList<Employee> employeeList, int n) {
 

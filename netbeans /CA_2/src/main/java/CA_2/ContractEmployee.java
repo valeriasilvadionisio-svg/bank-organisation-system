@@ -13,7 +13,7 @@ package CA_2;
 //Here I am only adding information specific to contract employees.
 // my diagram
 //- contractEndDate : String
-// + getContractEndDate() : String
+
 
 
 public class ContractEmployee extends Employee {

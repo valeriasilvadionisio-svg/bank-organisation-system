@@ -10,7 +10,7 @@ package CA_2;
  */
 //my diagram
 //- decisionLevel : String
-//+ getDecisionLevel() : String
+
 
 // here it inherits the manager information from the Manager Class
 
