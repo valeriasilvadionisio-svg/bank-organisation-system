@@ -47,7 +47,7 @@ public class CA_2 {
         TreeMain treeMain = new TreeMain();
 
         // This variable stores the number chosen by the user from the menu
-        int choice;
+        int choice = 0;
 
         // here the loop keeps showing the menu until the user chooses option 6 to exit
         do {
@@ -62,6 +62,13 @@ public class CA_2 {
 
             // Ask for user input
             System.out.print("Select an option: ");
+            // If the user types letters instead of a number, show a message and
+            // re-display the menu instead of letting the program crash (NFR5)
+            if (!input.hasNextInt()) {
+                System.out.println("Invalid option. Please enter a number from 1 to 6.");
+                input.next(); // discard the invalid input
+                continue;
+            }
             choice = input.nextInt();
             
             MenuOption selectedOption = null; //This variable will store the menu option selected by the user, as brief 
